@@ -1,0 +1,18 @@
+import pandas as pd
+import random
+from faker import Faker
+
+fake = Faker('ru_RU')  # Используем русские данные от Faker
+
+
+columns = ['Name']
+dataset = pd.DataFrame(columns=columns)
+
+for _ in range(320):
+    full_name = fake.surname()
+    data = [full_name]
+    dataset = dataset._append(pd.Series(data, index = columns), ignore_index = True)
+    
+dataset.to_csv('male_firstnamess.csv', index=False)
+
+

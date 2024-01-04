@@ -1,0 +1,164 @@
+[
+    {
+        "name": "Сапсан",
+        "carriageType": 
+        [
+            {
+                "name": "1Р",
+                "carriages": [1],
+                "seatCount": 1,
+                "baseCost": 7000
+            },
+            {
+                "name": "1В",
+                "carriages": [11],
+                "seatCount": 20,
+                "baseCost": 5000
+            }, 
+            {
+                "name": "1С",
+                "carriages": [2,12],
+                "seatCount": 20,
+                "baseCost": 4000
+            },
+            {
+                "name": "2С",
+                "carriages": [3,4,6,7,8,9,13,14,16,17,18,19],
+                "seatCount": 40,
+                "baseCost": 2000
+            }, 
+            {
+                "name": "2В",
+                "carriages" :[10, 20],
+                "seatCount": 30,
+                "baseCost": 2500
+            },
+            {
+                "name": "2Е",
+                "carriages": [5,15],
+                "seatCount": 20,
+                "baseCost": 5000
+            }
+        ]
+    },
+    {
+        "name": "Стриж",
+        "carriageType": 
+        [
+            {
+                "name": "1Е-СВ",
+                "carriages": [18],
+                "seatCount": 4,
+                "baseCost": 5000
+            }, 
+            {
+                "name": "1Р",
+                "carriages": [8, 9],
+                "seatCount": 40,
+                "baseCost": 2500
+            }, 
+            {
+                "name": "2С",
+                "carriages": [10,11,12,13,14,15,16,17],
+                "seatCount": 50,
+                "baseCost": 2000
+            }
+        ]  
+    },
+    {
+        "name": "Сидячий вагон",
+        "carriageType": 
+        [
+            {
+                "name": "1С",
+                "carriages": [1,2,3,4,5,6,7,8,9],
+                "seatCount": 50,
+                "baseCost": 1000
+            }, 
+            {
+                "name": "1Р",
+                "carriages": [10,11,12,13,14],
+                "seatCount": 60,
+                "baseCost": 1000
+            }, 
+            {
+                "name": "1В",
+                "carriages": [15],
+                "seatCount": 1,
+                "baseCost": 40000
+            }, 
+            {
+                "name": "2Р",
+                "carriages": [16,17],
+                "seatCount": 40,
+                "baseCost": 2000
+            }, 
+            {
+                "name": "2Е",
+                "carriages" :[18],
+                "seatCount": 40,
+                "baseCost": 1500
+            }
+        ]
+    },
+    {
+        "name": "Плацкартный вагон",
+        "carriageType": 
+        [
+            {
+                "name": "3Э",
+                "carriages": [1,2,3,4,5,6,7,8,9],
+                "seatCount": 25,
+                "baseCost": 2500
+            }
+        ]
+    },
+    {
+        "name": "Купе",
+        "carriageType": 
+        [
+            {
+                "name": "2Э",
+                "carriages": [1,2,3,4,5,6,7,8,9],
+                "seatCount": 20,
+                "baseCost": 3000
+            }
+        ]
+    },
+    {
+        "name": "Люкс",
+        "carriageType": 
+        [
+            {
+                "name": "1Б",
+                "carriages": [1,2,3],
+                "seatCount": 4,
+                "baseCost": 5000
+            },
+            {
+                "name": "1Л",
+                "carriages": [4,5,6,7,8,9],
+                "seatCount": 10,
+                "baseCost": 3000
+            }
+        ]
+    },
+    {
+        "name": "Мягкий вагон",
+        "carriageType": 
+        [
+            {
+                "name": "1А",
+                "carriages": [1,2,3],
+                "seatCount": 4,
+                "baseCost": 4000
+            },
+            {
+                "name": "1И",
+                "carriages": [4,5,6,7,8,9],
+                "seatCount": 5,
+                "baseCost": 3000
+            }
+        ]
+    }
+]
